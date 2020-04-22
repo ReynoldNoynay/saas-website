@@ -22,7 +22,6 @@ body {
 
 h1 {
   color: #ffffff;
-  border-bottom: 1px #000 solid;
 }
 
 header {
@@ -67,12 +66,8 @@ body {
 
 a {
   display: inline-block;
-  border-radius: 4px;
-  background-color: #555;
   color: #fff;
-  padding: .5em .75em;
   text-decoration: none;
-  border: 1px solid #555;
   margin: 1rem;
 }
 
@@ -96,7 +91,20 @@ p {
   max-width: 50em;
   margin: 0 auto;
 }
-
+.circle {
+  background: #008000;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  display:flex;
+  color: #ffffff;
+}
+.circle-red {
+  background: #FF0000;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  display:flex;
+  color: #ffffff;
+}
 /**css for sign-up form**/
 @media only screen and (min-width: 25em) {
 
